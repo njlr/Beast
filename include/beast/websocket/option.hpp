@@ -365,6 +365,12 @@ struct read_message_max
 };
 #endif
 
+/** Request filter option.
+*/
+struct request_filter
+{
+};
+
 /** Write buffer size option.
 
     Sets the size of the write buffer used by the implementation to

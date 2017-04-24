@@ -249,6 +249,10 @@ public:
         rd_msg_max_ = o.value;
     }
 
+    /// Set the request filter option
+    void
+    set_option(request_filter&& opt);
+
     /// Set the size of the write buffer
     void
     set_option(write_buffer_size const& o)
