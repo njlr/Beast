@@ -1,0 +1,11 @@
+{
+  "name": "beast",
+  "dependencies": {
+    "boost/range": "1.63.0",
+    "boost/intrusive": "1.63.0",
+    "boost/lexical-cast": "1.63.0",
+    "boost/math": "1.63.0",
+    "boost/system": "1.63.0",
+    "boost/asio": "1.63.0"
+  }
+}

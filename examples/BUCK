@@ -1,0 +1,25 @@
+cxx_binary(
+  name = 'http_example',
+  srcs = [
+    'http_example.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:beast',
+  ],
+)
+
+cxx_binary(
+  name = 'http_server',
+  srcs = [
+    'http_server.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:beast',
+  ],
+)
